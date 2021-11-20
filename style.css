@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    position: relative;
+    min-height: 118vh;
+    width: 100%;
+    overflow: visible;
+    background-image:url('cars.png');
+    background-size:cover;
+    background-position:center;
+    height:80vh;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 79px;
+    background: #11101d;
+    padding: 6px 14px;
+}
+
+.sidebar .logo_content .logo{
+    color: #F7941D;
+    display: flex;
+    height: 50px;
+    width: 38;
+    align-items: center;
+}
+
+.logo_content .logo i{
+    font-size: 28px;
+    margin-right: 5px
+}
+
+.home_content{
+    position: absolute;
+    height: 100%;
+    width: calc(100% -240px);
+    right: 640px;
+    top: -130px;
+    
+}
+
+.home_content .text{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+
+    /* font-size:50px; */
+    line-height:1.2;
+    color: #FEAE0B;
+    font-family: 'Permanent Marker', cursive;
+    
+}
+
