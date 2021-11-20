@@ -36,7 +36,25 @@ body {
     align-items: center;
 }
 
-.sidebar .logo_content .logo a:link {
+.sidebar .logo_content .logo .a:link {
+  color: #F7941D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sidebar .logo_content .logo .a:visited {
+  color: #F7941D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sidebar .logo_content .logo .a:hover {
+  color: #F7941D;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.sidebar .logo_content .logo .a:active {
   color: #F7941D;
   background-color: transparent;
   text-decoration: none;
