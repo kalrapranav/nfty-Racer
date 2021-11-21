@@ -8,8 +8,7 @@
 }
 
 body {
-    position: relative;
-    min-height: 118vh;
+    height: 100%;
     width: 100%;
     overflow: visible;
     background: url('cars.png');
