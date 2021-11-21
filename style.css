@@ -9,8 +9,6 @@
 
 body {
     height: 100%;
-    width: 100%;
-    overflow: visible;
     background: url('cars.png');
     background-repeat: no-repeat;
     background-size:cover;
