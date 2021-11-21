@@ -12,9 +12,11 @@ body {
     min-height: 118vh;
     width: 100%;
     overflow: visible;
-    background-image:url('cars.png');
+    background: url('cars.png');
+    background-repeat: no-repeat;
     background-size:cover;
     background-position:center;
+    background-attachment: fixed;
     height:80vh;
 }
 
